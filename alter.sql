@@ -56,3 +56,10 @@ DROP CONSTRAINT i_personId;
 ------------------------------------------
 
 
+
+------------------------------------------
+-- JUST RENAME THE COLUMN NAME
+ALTER TABLE students RENAME COLUMN frontend to frontend_mark;
+------------------------------------------
+
+
